@@ -42,7 +42,7 @@ type ALiYunCommunicationRequest struct {
 	OutId           string
 }
 
-var encoding = base32.NewEncoding("ybndrfg8ejkmcpqxot1uwisza345h897")
+var encoding = base32.NewEncoding("ybndrfgejkmcpqxot1uwisza345h897")
 
 func NewId() string {
 	var b bytes.Buffer
